@@ -6,6 +6,8 @@ The implementation keeps reciprocal hard constraints separate from soft compatib
 
 The complete Round 2 technical report and matched baseline results are in [FINAL_REPORT.md](FINAL_REPORT.md). It records both favorable and unfavorable results and distinguishes the current default from experimental strategies.
 
+To see the submitted policy make a reproducible ASK and MATCH decision on a small public synthetic example, run [`python3 demo.py`](DEMO.md).
+
 ## Problem Overview
 
 On each decision day, the simulator invokes the policy twice:
